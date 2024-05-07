@@ -6,7 +6,7 @@
 * This source file is subject to the Academic Free License (AFL 3.0)
 * that is bundled with this package in the file LICENSE.txt.
 * It is also available through the world-wide-web at this URL:
-* http://opensource.org/licenses/afl-3.0.php
+* https://opensource.org/licenses/afl-3.0.php
 * If you did not receive a copy of the license and are unable to
 * obtain it through the world-wide-web, please send an email
 * to license@prestashop.com so we can send you a copy immediately.
@@ -15,11 +15,11 @@
 *
 * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
 * versions in the future. If you wish to customize PrestaShop for your
-* needs please refer to http://www.prestashop.com for more information.
+* needs please refer to https://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
 *  @copyright  2007-2014 PrestaShop SA
-*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  @license    https://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 {*define numbers of product per line in other page for desktop*}
@@ -121,13 +121,13 @@
           {*{if isset($product.available_for_order) && $product.available_for_order && !isset($restricted_country_mode)}*}
             <span class="availability availability-slidein">
               <link v-if="item._source['{Elasticsearch::getAlias('allow_oosp')|escape:'javascript':'UTF-8'}'] || item._source['{Elasticsearch::getAlias('in_stock')|escape:'javascript':'UTF-8'}']"
-                    href="http://schema.org/InStock"
+                    href="https://schema.org/InStock"
               />
               {*<span v-else-if="item._source.in_stock" class="available-dif">*}
-                {*<link href="http://schema.org/LimitedAvailability" />{l s='Product available with different options' mod='elasticserach'}*}
+                {*<link href="https://schema.org/LimitedAvailability" />{l s='Product available with different options' mod='elasticserach'}*}
               {*</span>*}
               <span v-else class="out-of-stock">
-                <link  href="http://schema.org/OutOfStock" />{l s='Out of stock' mod='elasticsearch'}
+                <link  href="https://schema.org/OutOfStock" />{l s='Out of stock' mod='elasticsearch'}
               </span>
             </span>
           {*{/if}*}
